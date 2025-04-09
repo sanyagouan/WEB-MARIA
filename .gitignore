@@ -2,6 +2,7 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+!DESCARGA-LINKELIND/*.pdf  # Permitir PDFs en esta carpeta
 
 # Archivos temporales
 *.tmp
@@ -37,3 +38,7 @@ yarn-error.log*
 /build
 /out
 /.next
+
+# Permitir subir imágenes
+!*.jpg
+!*.png
